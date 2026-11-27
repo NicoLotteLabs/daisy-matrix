@@ -10,7 +10,7 @@ A free, independent Windows companion for the classic Desktop Commander MCP cons
 - No network calls, credentials, telemetry or saved console contents. The process samples recent console characters in memory solely to detect changes. The local status file contains state and timestamps only.
 
 ### Quick start (Windows)
-Requires Windows with .NET Framework 4.x and a classic visible cmd/conhost console. Windows Terminal / ConPTY, services and elevated consoles may not work. No administrator rights normally required. Download the [Windows ZIP](https://github.com/rhalov3ly-lgtm/daisy-matrix/raw/refs/heads/main/DaisyMatrix-v1.0.0-win.zip), extract it, start Desktop Commander, and double-click `Start.cmd` from the extracted folder. If auto-detection fails, run `Start.cmd 1234` with the PID of the intended classic console process. Bring the console to the foreground. Run `Stop.cmd` to stop gracefully. To uninstall, stop it and delete the extracted folder. No startup entry is created.
+Requires Windows with .NET Framework 4.x and a classic visible cmd/conhost console. Windows Terminal / ConPTY, services and elevated consoles may not work. No administrator rights normally required. Download the [Windows ZIP](https://github.com/NicoLotteLabs/daisy-matrix/raw/refs/heads/main/DaisyMatrix-v1.0.0-win.zip), extract it, start Desktop Commander, and double-click `Start.cmd` from the extracted folder. If auto-detection fails, run `Start.cmd 1234` with the PID of the intended classic console process. Bring the console to the foreground. Run `Stop.cmd` to stop gracefully. To uninstall, stop it and delete the extracted folder. No startup entry is created.
 To compile from source, run `Build.ps1`. PowerShell execution policy may require unblocking downloaded scripts after inspecting them; do not disable system-wide security policies.
 
 ## Français
@@ -26,4 +26,5 @@ MIT license.
 Click FULL SCREEN or press F11 while Matrix is visible. Escape or new console output restores the normal desktop. F11 switches back to window mode.
 Cliquez sur FULL SCREEN ou appuyez sur F11 pendant la veille. Échap ou la reprise des logs restitue le bureau normal. F11 revient au mode fenêtré.
 Contact: support@nicolottelabs.com
+
 
