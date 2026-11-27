@@ -1,0 +1,4 @@
+*.exe
+*.zip
+matrix-status.txt
+stop.request
